@@ -1,0 +1,30 @@
+body {
+	background: pink ;
+	padding: 50px;
+	/*font-family: 'Segoe UI';*/
+}
+
+table{
+	border-collapse: collapse;
+	width: 80%;
+}
+
+th,td{
+	padding: 10px;
+}
+
+input {
+	padding: 10px;
+}
+
+button {
+	padding: 10px;
+}
+
+.warning {
+	color: red;
+}
+
+.logout {
+	text-align: right;
+}
