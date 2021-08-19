@@ -1,9 +1,11 @@
 <?php
+$servername="localhost";
+$db_username="root";
+$db_password="";
+$dbname="movie_db";
+
 function execute_query($query){
-    $servername="localhost";
-	$db_username="root";
-	$db_password="";
-	$dbname="movie_db";
+    global $servername,$db_username,$db_password,$dbname;
 
     $connection=mysqli_connect($servername,$db_username,$db_password,$dbname);
 
@@ -14,5 +16,3 @@ function execute_query($query){
     }
 }
 ?>
-
-
